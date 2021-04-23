@@ -1,0 +1,15 @@
+2021-04-21T19:12:54-0500: == JOB START  NAME=run_mpi QUEUE=iclmsc HOST=hnod7-22-28 DATE=Wed Apr 21 19:12:54 CDT 2021 JOBID=52625287 ARRAY_JOBID= TASK= DEPENDENCIES= ==
+2021-04-21T19:12:56-0500: Start My MPI Job!
+2021-04-21T19:12:57-0500: Using 8 nodes:
+2021-04-21T19:12:57-0500: hnod7-22-[28-35]
+2021-04-21T19:12:57-0500: For this job, TMPDIR=/tmp/.tmpdir.52625287/
+2021-04-21T19:12:57-0500: This is task number  running on hnod7-22-28
+2021-04-21T19:13:35-0500: --------------------------------------------------------------------------
+2021-04-21T19:13:35-0500: An ORTE daemon has unexpectedly failed after launch and before
+2021-04-21T19:13:35-0500: communicating back to mpirun. This could be caused by a number
+2021-04-21T19:13:35-0500: of factors, including an inability to create a connection back
+2021-04-21T19:13:35-0500: to mpirun due to a lack of common network interfaces and/or no
+2021-04-21T19:13:35-0500: route found between them. Please check network connectivity
+2021-04-21T19:13:35-0500: (including firewalls and network routing requirements).
+2021-04-21T19:13:35-0500: --------------------------------------------------------------------------
+2021-04-21T19:13:35-0500: == JOB END  STATUS=1 HOST=hnod7-22-28 DATE=Wed Apr 21 19:13:35 CDT 2021 RUNTIME=42 ==
